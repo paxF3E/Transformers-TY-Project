@@ -1,0 +1,10 @@
+
+{'loss': 1.2984, 'learning_rate': 4.928479473608926e-05, 'epoch': 0.07}
+{'loss': 0.9341, 'learning_rate': 4.8569589472178516e-05, 'epoch': 0.14}
+{'loss': 0.886, 'learning_rate': 4.785438420826778e-05, 'epoch': 0.21}
+{'loss': 0.8507, 'learning_rate': 4.713917894435703e-05, 'epoch': 0.29}
+wandb: Network error (ConnectionError), entering retry loop.
+{'loss': 0.828, 'learning_rate': 4.6423973680446294e-05, 'epoch': 0.36}
+{'loss': 0.8168, 'learning_rate': 4.5708768416535544e-05, 'epoch': 0.43}
+{'loss': 0.8007, 'learning_rate': 4.499356315262481e-05, 'epoch': 0.5}
+{'loss': 0.7932, 'learning_rate': 4.4278357888714065e-05, 'epoch': 0.57}

@@ -1,0 +1,70 @@
+{
+    "os": "Linux-5.15.0-67-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-20T16:59:03.827044",
+    "startedAt": "2023-03-20T16:59:02.273775",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "pekaiser",
+    "username": "paxx",
+    "executable": "/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1546.520375,
+        "min": 1400.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 2272.163,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1700.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "total": 89.39539337158203,
+        "used": 25.642471313476562
+    },
+    "memory": {
+        "total": 7.189544677734375
+    }
+}
