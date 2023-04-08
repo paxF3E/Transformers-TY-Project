@@ -1,0 +1,76 @@
+{
+    "os": "Linux-5.15.0-69-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-04-08T20:54:05.699448",
+    "startedAt": "2023-04-08T20:54:04.092036",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/paxF3E/Transformers-TY-Project.git",
+        "commit": "fe0eb9ba4a97a7fb2ce9917b61bbd7102419149f"
+    },
+    "email": "pallav.sdsaxena2638@gmail.com",
+    "root": "/media/data2/Transformers/Transformers-TY-Project",
+    "host": "pekaiser",
+    "username": "paxx",
+    "executable": "/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1567.0071249999999,
+        "min": 1400.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1397.319,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1406.173,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1602.116,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 2000.0
+        },
+        {
+            "current": 1502.641,
+            "min": 1400.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "total": 89.39539337158203,
+        "used": 27.10586929321289
+    },
+    "memory": {
+        "total": 7.189517974853516
+    }
+}

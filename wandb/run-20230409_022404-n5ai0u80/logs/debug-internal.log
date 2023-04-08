@@ -1,0 +1,132 @@
+2023-04-09 02:24:04,107 INFO    StreamThr :252328 [internal.py:wandb_internal():87] W&B internal server running at pid: 252328, started at: 2023-04-09 02:24:04.106730
+2023-04-09 02:24:04,109 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status
+2023-04-09 02:24:04,123 INFO    WriterThread:252328 [datastore.py:open_for_write():85] open: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/run-n5ai0u80.wandb
+2023-04-09 02:24:04,124 DEBUG   SenderThread:252328 [sender.py:send():336] send: header
+2023-04-09 02:24:04,269 DEBUG   SenderThread:252328 [sender.py:send():336] send: run
+2023-04-09 02:24:05,358 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: check_version
+2023-04-09 02:24:05,361 INFO    SenderThread:252328 [dir_watcher.py:__init__():219] watching files in: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/files
+2023-04-09 02:24:05,361 INFO    SenderThread:252328 [sender.py:_start_run_threads():1078] run started: n5ai0u80 with start time 1680987244.104158
+2023-04-09 02:24:05,361 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: summary_record
+2023-04-09 02:24:05,361 INFO    SenderThread:252328 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-09 02:24:05,362 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: check_version
+2023-04-09 02:24:05,643 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: run_start
+2023-04-09 02:24:05,645 DEBUG   HandlerThread:252328 [system_info.py:__init__():31] System info init
+2023-04-09 02:24:05,645 DEBUG   HandlerThread:252328 [system_info.py:__init__():46] System info init done
+2023-04-09 02:24:05,645 INFO    HandlerThread:252328 [system_monitor.py:start():183] Starting system monitor
+2023-04-09 02:24:05,646 INFO    SystemMonitor:252328 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-09 02:24:05,646 INFO    HandlerThread:252328 [system_monitor.py:probe():204] Collecting system info
+2023-04-09 02:24:05,647 INFO    SystemMonitor:252328 [interfaces.py:start():187] Started cpu monitoring
+2023-04-09 02:24:05,647 INFO    SystemMonitor:252328 [interfaces.py:start():187] Started disk monitoring
+2023-04-09 02:24:05,649 INFO    SystemMonitor:252328 [interfaces.py:start():187] Started memory monitoring
+2023-04-09 02:24:05,651 INFO    SystemMonitor:252328 [interfaces.py:start():187] Started network monitoring
+2023-04-09 02:24:05,699 DEBUG   HandlerThread:252328 [system_info.py:probe():195] Probing system
+2023-04-09 02:24:05,702 DEBUG   HandlerThread:252328 [system_info.py:_probe_git():180] Probing git
+2023-04-09 02:24:05,713 DEBUG   HandlerThread:252328 [system_info.py:_probe_git():188] Probing git done
+2023-04-09 02:24:05,713 DEBUG   HandlerThread:252328 [system_info.py:probe():240] Probing system done
+2023-04-09 02:24:05,713 DEBUG   HandlerThread:252328 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-69-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-04-08T20:54:05.699448', 'startedAt': '2023-04-08T20:54:04.092036', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/paxF3E/Transformers-TY-Project.git', 'commit': 'fe0eb9ba4a97a7fb2ce9917b61bbd7102419149f'}, 'email': 'pallav.sdsaxena2638@gmail.com', 'root': '/media/data2/Transformers/Transformers-TY-Project', 'host': 'pekaiser', 'username': 'paxx', 'executable': '/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1567.0071249999999, 'min': 1400.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 1400.0, 'min': 1400.0, 'max': 2000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 2000.0}, {'current': 1397.319, 'min': 1400.0, 'max': 2000.0}, {'current': 1406.173, 'min': 1400.0, 'max': 2000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 2000.0}, {'current': 1602.116, 'min': 1400.0, 'max': 2000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 2000.0}, {'current': 1502.641, 'min': 1400.0, 'max': 2000.0}], 'disk': {'total': 89.39539337158203, 'used': 27.10586929321289}, 'memory': {'total': 7.189517974853516}}
+2023-04-09 02:24:05,713 INFO    HandlerThread:252328 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-09 02:24:05,713 INFO    HandlerThread:252328 [system_monitor.py:probe():217] Publishing system info
+2023-04-09 02:24:05,713 DEBUG   HandlerThread:252328 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-09 02:24:05,714 DEBUG   HandlerThread:252328 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-09 02:24:05,715 INFO    HandlerThread:252328 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-09 02:24:05,726 DEBUG   SenderThread:252328 [sender.py:send():336] send: files
+2023-04-09 02:24:05,726 INFO    SenderThread:252328 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-09 02:24:05,746 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-09 02:24:05,747 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: stop_status
+2023-04-09 02:24:06,363 INFO    Thread-13 :252328 [dir_watcher.py:_on_file_created():278] file/dir created: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/files/wandb-summary.json
+2023-04-09 02:24:06,363 INFO    Thread-13 :252328 [dir_watcher.py:_on_file_created():278] file/dir created: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/files/requirements.txt
+2023-04-09 02:24:06,363 INFO    Thread-13 :252328 [dir_watcher.py:_on_file_created():278] file/dir created: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/files/wandb-metadata.json
+2023-04-09 02:24:06,376 DEBUG   SenderThread:252328 [sender.py:send():336] send: telemetry
+2023-04-09 02:24:06,376 DEBUG   SenderThread:252328 [sender.py:send():336] send: config
+2023-04-09 02:24:06,378 DEBUG   SenderThread:252328 [sender.py:send():336] send: metric
+2023-04-09 02:24:06,378 DEBUG   SenderThread:252328 [sender.py:send():336] send: telemetry
+2023-04-09 02:24:06,378 DEBUG   SenderThread:252328 [sender.py:send():336] send: metric
+2023-04-09 02:24:06,378 WARNING SenderThread:252328 [sender.py:send_metric():1283] Seen metric with glob (shouldn't happen)
+2023-04-09 02:24:07,256 INFO    wandb-upload_0:252328 [upload_job.py:push():138] Uploaded file /tmp/tmpy75ov57fwandb/ag27fhfk-wandb-metadata.json
+2023-04-09 02:24:09,379 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:14,379 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:19,380 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:20,781 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-09 02:24:20,784 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: stop_status
+2023-04-09 02:24:25,277 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:30,292 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:35,300 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:35,772 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-09 02:24:36,903 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: stop_status
+2023-04-09 02:24:37,443 INFO    Thread-13 :252328 [dir_watcher.py:_on_file_modified():295] file/dir modified: /media/data2/Transformers/Transformers-TY-Project/wandb/run-20230409_022404-n5ai0u80/files/config.yaml
+2023-04-09 02:24:41,937 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:46,940 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:51,941 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: status_report
+2023-04-09 02:24:55,729 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-09 02:24:55,731 DEBUG   SenderThread:252328 [sender.py:send_request():363] send_request: stop_status
+2023-04-09 02:24:59,265 INFO    SenderThread:252328 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe5407445b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/paxx/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5407445b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/paxx/.local/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/paxx/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 243, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/paxx/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/paxx/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/paxx/.local/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5407445b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2023-04-09 02:25:00,848 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-09 02:25:04,456 DEBUG   HandlerThread:252328 [handler.py:handle_request():144] handle_request: pause
+2023-04-09 02:25:04,457 INFO    HandlerThread:252328 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2023-04-09 02:25:04,460 INFO    HandlerThread:252328 [system_monitor.py:finish():193] Stopping system monitor
+2023-04-09 02:25:04,467 DEBUG   SystemMonitor:252328 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-04-09 02:25:04,472 DEBUG   SystemMonitor:252328 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-04-09 02:25:04,472 DEBUG   SystemMonitor:252328 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-04-09 02:25:04,488 INFO    HandlerThread:252328 [interfaces.py:finish():199] Joined cpu monitor
+2023-04-09 02:25:04,496 INFO    HandlerThread:252328 [interfaces.py:finish():199] Joined disk monitor
+2023-04-09 02:25:04,497 INFO    HandlerThread:252328 [interfaces.py:finish():199] Joined memory monitor
+2023-04-09 02:25:04,499 INFO    HandlerThread:252328 [interfaces.py:finish():199] Joined network monitor
