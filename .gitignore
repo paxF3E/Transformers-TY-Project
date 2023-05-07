@@ -2,3 +2,9 @@ openai_api_key
 result/*
 Datasets_PART2.zip
 # !result/pytorch_model.bin
+result-20230505T123618Z-002.zip
+output1.txt
+wandb/*
+BART/*
+!BART/BART_base_training.ipynb
+
